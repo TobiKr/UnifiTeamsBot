@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "b9b597eb-e0e7-45b9-ae75-10ad95ee9612",
+  "packageName": "com.azuregeek.UnifiTeamsBot",
+  "developer": {
+    "name": "Kritten GmbH",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "Wify Voucher Bot",
+    "full": "Wify Bot - Creates Hotspot Vouchers for your Guests"
+  },
+  "description": {
+    "short": "Just a simple bot that creates Hotspot Voucher Codes for your Guests.",
+    "full": "Just a simple bot that creates Hotspot Voucher Codes on Unifi Platforms for your Guests."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "850ddad0-bdd8-4405-af65-df2590a41157",
+      "scopes": [
+        "personal"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "token.botframework.com",
+    "*.ngrok.io"
+  ]
+}
